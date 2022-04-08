@@ -1,0 +1,74 @@
+
+ body{
+  background-color:white;
+ }
+
+ .cabecalio{
+   height: 160px;
+   background-color: darkseagreen;
+   padding: 20px 20px;
+ }
+
+.caixa{
+  position: relative;
+  width: 940px; 
+  margin: 0 auto;
+}
+
+ nav {
+   position: absolute;
+   top: 156px;
+   right: 250px;
+ }
+ 
+ nav li{
+  display: inline;
+  margin-left: 45px;
+}
+
+#logo{
+  position: absolute;
+  width:150px;
+  padding: 0 0 0 400px;
+
+}
+
+.principal{
+  position: relative;
+  display: flex;
+  width: 940px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 80px 0;
+}
+
+.banner{
+  width: 400px;
+}
+
+
+.rodape{
+  height: 400PX;
+  background-color:darkseagreen ;
+}
+
+form{
+  width: 940px;
+  margin: 0 auto;
+  padding: 10px 10px;
+}
+
+label{
+  display: block;
+  margin: 0 0 5px;
+}
+
+.input-padrao{
+  display: block;
+  margin: 0 0 5px; 
+}
+
+.enviar{
+  margin: 0 70px;
+  padding: 0 15px;
+}
